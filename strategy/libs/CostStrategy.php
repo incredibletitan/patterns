@@ -1,6 +1,6 @@
 <?php
 
-namespace patterns\strategy;
+namespace strategy\libs;
 
 /**
  * Class CostStrategy
