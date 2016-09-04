@@ -1,6 +1,6 @@
 <?php
 
-namespace strategy\libs;
+namespace strategy\cost\libs;
 
 /**
  * Class Seminar

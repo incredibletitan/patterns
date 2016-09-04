@@ -1,11 +1,11 @@
 <?php
-require_once __DIR__ . "/../bootstrap.php";
+require_once __DIR__ . "/../../bootstrap.php";
 
-use strategy\libs\TimedCostStrategy;
-use strategy\libs\FixedPriceCostStrategy;
-use strategy\libs\Lecture;
-use strategy\libs\Seminar;
-use strategy\libs\Lesson;
+use strategy\cost\libs\TimedCostStrategy;
+use strategy\cost\libs\FixedPriceCostStrategy;
+use strategy\cost\libs\Lecture;
+use strategy\cost\libs\Seminar;
+use strategy\cost\libs\Lesson;
 
 $lessons = [];
 $lessons[] = new Lecture(16, new TimedCostStrategy());
