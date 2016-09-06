@@ -14,7 +14,7 @@ class MarkLogicMarker extends Marker
      *
      * @return bool
      */
-    public function mark()
+    public function mark($response)
     {
         return (bool)rand(0, 1);
     }
