@@ -10,6 +10,8 @@ namespace strategy\questions\libs;
 class MatchMarker extends Marker
 {
     /**
+     * @inheritdoc
+     *
      * Create match marker
      *
      * @return bool

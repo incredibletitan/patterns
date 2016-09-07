@@ -10,6 +10,8 @@ namespace strategy\questions\libs;
 class RegexpMarker extends Marker
 {
     /**
+     * @inheritdoc
+     *
      * Create regexp marker
      *
      * @return bool

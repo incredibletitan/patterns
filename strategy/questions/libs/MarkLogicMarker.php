@@ -10,6 +10,8 @@ namespace strategy\questions\libs;
 class MarkLogicMarker extends Marker
 {
     /**
+     * @inheritdoc
+     *
      * Create logical marker
      *
      * @return bool
