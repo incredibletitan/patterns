@@ -1,6 +1,6 @@
 <?php
 
-namespace abstract_factory\examples\parsers\libs;
+namespace abstract_factory\parsers\libs;
 
 /**
  * Class CSVParserFactory
