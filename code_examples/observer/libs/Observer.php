@@ -1,13 +1,18 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: x
+ * Date: 11/23/17
+ * Time: 8:57 PM
+ */
 
 namespace libs;
 
-/**
- * Interface Observer
- *
- * @author Yuriy Stos
- */
 interface Observer
 {
-    function update(Observable $observable);
+    /**
+     * @param Subject $subject - Subject instance
+     * @return mixed
+     */
+    function update(Subject $subject);
 }
